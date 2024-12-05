@@ -51,8 +51,12 @@ const data = {
             url: "/clases",
           },
           {
-            title: "Settings",
-            url: "#",
+            title: "Instructor",
+            url: "/instructor",
+          },
+          {
+            title: "Clientes",
+            url: "/clientes",
           },
         ],
       },
