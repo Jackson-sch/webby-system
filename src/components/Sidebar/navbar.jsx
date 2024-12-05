@@ -80,8 +80,8 @@ export default function Navbar() {
         )}
       >
         <div className="container flex h-14 max-w-screen-2xl items-center">
-          <div className="mr-4 hidden md:flex">
           <SidebarTrigger className="ml-2" />
+          {/* <div className="mr-4 hidden md:flex">
             <Link href="/" className="mr-6 ml-4 flex items-center space-x-2">
               <span className="hidden font-bold sm:inline-block">Webby/ui</span>
             </Link>
@@ -98,7 +98,7 @@ export default function Navbar() {
                 ))}
               </NavigationMenuList>
             </NavigationMenu>
-          </div>
+          </div> */}
 
           <Sheet>
             <SheetTrigger asChild>
