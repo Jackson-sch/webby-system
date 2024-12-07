@@ -80,10 +80,9 @@ export default function Navbar() {
         )}
       >
         <div className="container flex h-14 max-w-screen-2xl items-center">
-<<<<<<< HEAD
-          <div className="mr-4  md:flex">
-=======
->>>>>>> 8148777f7664d0ff8a4d0d3142ee466a61368e8f
+
+         
+
           <SidebarTrigger className="ml-2" />
           {/* <div className="mr-4 hidden md:flex">
             <Link href="/" className="mr-6 ml-4 flex items-center space-x-2">
